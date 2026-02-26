@@ -1,0 +1,244 @@
+/*
+ * Huffman Coding Project - Stylesheet
+ * Modern Dark Theme
+ */
+
+/* ============================================ */
+/*               ROOT & BACKGROUNDS             */
+/* ============================================ */
+
+.root {
+    -fx-background-color: #2c3e50;
+}
+
+.main-pane {
+    -fx-background-color: #2c3e50;
+}
+
+/* ============================================ */
+/*                   LABELS                     */
+/* ============================================ */
+
+.title-label {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* ============================================ */
+/*                  BUTTONS                     */
+/* ============================================ */
+
+.custom-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 2);
+}
+
+.custom-button:hover {
+    -fx-background-color: #2980b9;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.custom-button:pressed {
+    -fx-background-color: #1f5f8b;
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+/* ============================================ */
+/*                TEXT AREA                     */
+/* ============================================ */
+
+.stats-area {
+    -fx-control-inner-background: #34495e;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Courier New', monospace;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.stats-area .content {
+    -fx-background-color: #34495e;
+}
+
+.stats-area .scroll-pane {
+    -fx-background-color: #34495e;
+}
+
+.stats-area .scroll-pane .viewport {
+    -fx-background-color: #34495e;
+}
+
+/* ============================================ */
+/*               TABLE VIEW                     */
+/* ============================================ */
+
+.custom-table {
+    -fx-background-color: #34495e;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+/* Table Header */
+.custom-table .column-header-background {
+    -fx-background-color: #2c3e50;
+}
+
+.custom-table .column-header {
+    -fx-background-color: #2c3e50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 2 0;
+}
+
+.custom-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+/* Table Cells */
+.custom-table .table-cell {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-font-size: 13px;
+    -fx-border-color: #2c3e50;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* Table Rows */
+.custom-table .table-row-cell {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+}
+
+.custom-table .table-row-cell:odd {
+    -fx-background-color: #3d566e;
+}
+
+.custom-table .table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.custom-table .table-row-cell:hover {
+    -fx-background-color: #4a6785;
+}
+
+/* Huffman Code Column - Monospace Font */
+.code-column .table-cell {
+    -fx-font-family: 'Courier New', monospace;
+    -fx-font-size: 13px;
+}
+
+/* Table Scrollbar */
+.custom-table .scroll-bar {
+    -fx-background-color: #2c3e50;
+}
+
+.custom-table .scroll-bar .thumb {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 5;
+}
+
+.custom-table .scroll-bar .thumb:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* ============================================ */
+/*                 ALERTS                       */
+/* ============================================ */
+
+.alert {
+    -fx-background-color: #34495e;
+}
+
+.alert .header-panel {
+    -fx-background-color: #2c3e50;
+}
+
+.alert .content {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+}
+
+.alert .label {
+    -fx-text-fill: white;
+}
+
+.alert .button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.alert .button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* ============================================ */
+/*              FILE CHOOSER                    */
+/* ============================================ */
+
+.file-chooser {
+    -fx-background-color: #34495e;
+}
+
+/* ============================================ */
+/*             SCROLL BARS                      */
+/* ============================================ */
+
+.scroll-bar {
+    -fx-background-color: #2c3e50;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #2980b9;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #2c3e50;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-background-color: white;
+}
+
+/* ============================================ */
+/*            CUSTOM STYLES                     */
+/* ============================================ */
+
+/* Button Panel */
+.button-panel {
+    -fx-spacing: 25;
+    -fx-alignment: top-center;
+}
+
+/* Animations */
+.fade-in {
+    -fx-opacity: 0;
+}
+
+.slide-in {
+    -fx-translate-x: -50;
+}
